@@ -5,5 +5,5 @@
     voluptatem. Illo, facilis. Maiores esse dolorem iusto excepturi natus quo
     laboriosam ut perspiciatis ex tempore officiis, alias placeat? Nemo, alias!
   </p>
-  <p *ngFor="let x of log">Hello World!</p>
+  <p *ngFor="let x of log; let i = index">{{ i + 1 }} Hello World! {{ x }}</p>
 </div>
