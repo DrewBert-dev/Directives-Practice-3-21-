@@ -1,8 +1,9 @@
 <div>
-  <button (click) = 'onClick()'>Display Details</button>
+  <button (click)="onClick()">Display Details</button>
   <p *ngIf="showOrHide">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex
     voluptatem. Illo, facilis. Maiores esse dolorem iusto excepturi natus quo
     laboriosam ut perspiciatis ex tempore officiis, alias placeat? Nemo, alias!
   </p>
+  <p *ngFor="let x of log">Hello World!</p>
 </div>
